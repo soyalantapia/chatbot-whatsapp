@@ -2,29 +2,29 @@
   key: {
     remoteJid: '5491164817499@s.whatsapp.net',
     fromMe: false,
-    id: '2DC8D00758024783EB99E11F8F7C3A82',
+    id: '6CA142DDDEAAEEBEA7A9703AABC6E540',
     participant: undefined
   },
-  messageTimestamp: 1676130347,
+  messageTimestamp: 1676133146,
   pushName: 'Catalina',
   message: Message {
-    conversation: 'Hol',
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hol',
+  body: 'Hola',
   from: '5491164817499'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491164817499@s.whatsapp.net',
     fromMe: false,
-    id: 'B118FC2A9B005387902C6815585B5C41',
+    id: '689AE1293DF5C7F865813D857F69A352',
     participant: undefined
   },
-  messageTimestamp: 1676130350,
+  messageTimestamp: 1676133148,
   pushName: 'Catalina',
   message: Message {
     messageContextInfo: MessageContextInfo {
@@ -32,12 +32,31 @@
       deviceListMetadataVersion: 2
     },
     buttonsResponseMessage: ButtonsResponseMessage {
-      selectedButtonId: 'id-btn-1',
-      selectedDisplayText: 'Techos',
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: 'Pisos',
       contextInfo: [ContextInfo],
       type: 1
     }
   },
-  body: 'Techos',
+  body: 'Pisos',
+  from: '5491164817499'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491164817499@s.whatsapp.net',
+    fromMe: false,
+    id: 'EBB0AC92725279E93227D8F34326AB92',
+    participant: undefined
+  },
+  messageTimestamp: 1676133173,
+  pushName: 'Catalina',
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
   from: '5491164817499'
 }
