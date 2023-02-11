@@ -160,12 +160,9 @@ const flowTecho = addKeyword(["techo", "Techos", "techos", "tech"])
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/4.techos-milemor-whatsapp.jpeg'})
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2techos-milemor-whatsapp.jpeg'})
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/techos-milemor-whatsapp.jpeg'})
-  
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/WhatsApp-Video-2023-01-31-at-11.01.02.mp4'})
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/WhatsApp-Video-2023-01-31-at-11.01.02-1.mp4'})
-
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-milemor-whatsapp-Duratej-Teja-de-Resina-Romana-ASA-1.pdf'})
-
   .addAnswer(
     "Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",
     {
