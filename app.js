@@ -158,6 +158,8 @@ const flowTecho = addKeyword(["techo", "Techos", "techos", "tech"])
   ])
   .addAnswer(' ',{ media:'https://milemorlowcost.com:2083/cpsess6354608470/frontend/jupiter/filemanager/showfile.html?file=01+Duratej+-+Teja+de+Resina+Romana+ASA.pdf&fileop=&dir=%2Fhome%2Fmilemorlowcost%2Fpublic_html%2Fwp-content%2Fuploads%2F2023%2F02%2Ftechos&dirop=&charset=&file_charset=&baseurl=&basedir='})
   .addAnswer(' ',{ media:'https://milemorlowcost.com:2083/cpsess6354608470/frontend/jupiter/filemanager/showfile.html?file=techos&fileop=&dir=%2Fhome%2Fmilemorlowcost%2Fpublic_html%2Fwp-content%2Fuploads%2F2023%2F02%2Ftechos&dirop=&charset=&file_charset=&baseurl=&basedir='})
+  .addAnswer(' ',{ media:'https://milemorlowcost.com:2083/cpsess6354608470/frontend/jupiter/filemanager/showfile.html?file=techos&fileop=&dir=%2Fhome%2Fmilemorlowcost%2Fpublic_html%2Fwp-content%2Fuploads%2F2023%2F02%2Ftechos&dirop=&charset=&file_charset=&baseurl=&basedir='})
+
   .addAnswer(
     "Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",
     {
