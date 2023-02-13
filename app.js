@@ -50,9 +50,6 @@ const flowDeks = addKeyword(["Decks", "Deck", "Deckss"])
 
 const flowPuertaBlindada = addKeyword(["Puerta Blindada", "Puertas Blindada", "Puertas Blindadas,Puerta"])
   .addAnswer([
-    "Hola!", 
-    "Muchas gracias Por comunicarse con Puertas Terranova",
-    "          ",
     "PRECIO Y FORMA DE PAGO",
     "Puerta 50mm (3 MODELO)",
     "Deposito/Tranferencia: 104.000$Ar",
