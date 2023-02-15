@@ -11,6 +11,12 @@ const MockAdapter = require("@bot-whatsapp/database/mock");
 
 
 
+
+const flowagradecimiento = addKeyword(["gracias", "grac"]).addAnswer(
+  "Gracias a ti cualquier otra consulta o pregunta nos podrás encontrar en www.milemor.com",
+);
+
+
 // ----------------------------------------------------------------
 
 
@@ -39,8 +45,7 @@ const flowDeks = addKeyword(["Decks", "Deck", "Deckss"])
     "¿Que cantidad y que modelos estabas buscando?.",
     {
       delay: 4500,
-    }
-  );
+    },null,[flowagradecimiento]);
 
 
 
@@ -88,7 +93,7 @@ const flowPuertaBlindada = addKeyword(["Puerta Blindada", "Puertas Blindada", "P
   //PDF
     .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2.puertas.pdf'})
   .addAnswer("Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",{delay: 4500}
-  );
+  ,null,[flowagradecimiento]);
 
 
 
@@ -126,7 +131,7 @@ const flowPiso = addKeyword(["piso", "pisos", "pis"]).addAnswer([
   "Para conocer tu requerimiento y brindarte una asesoría personalizada respondé la siguiente encuesta:",
   "1️⃣ Quiero cotizar mas de 100m2 (venta por lotes cerrados)",
   " 2️⃣ Quiero cotizar menos de 100m2 (venta por cajas",
-]);
+],null,[flowPiso1,flowPiso2]);
 
 
 // ----------------------------------------------------------------
@@ -157,8 +162,7 @@ const flowVerona = addKeyword(["Vereno", "Vereno - Duratej"])
     "Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",
     {
       delay: 4500,
-    }
-  );
+    },null,[flowagradecimiento]);
 
 
 
@@ -169,7 +173,6 @@ const flowVerona = addKeyword(["Vereno", "Vereno - Duratej"])
 
 const flowTecho = addKeyword(["techo", "Techos", "techos", "tech"])
   .addAnswer([
-    "Hola buenos días",
     "Gracias por su consulta, las chapas de la linea Duratej vienen con 25 años de garantia, son super resistentes, térmicas y no se oxidan, Te puedo ofrecer estos 3 modelos en las siguientes medidas y valores:",
     "          ",
     "5.750 pesos el metro lineal (Lamina de 2,40 o 3,06 de largo x 1,05 de ancho, 2,3mm de espesor)",
@@ -193,8 +196,7 @@ const flowTecho = addKeyword(["techo", "Techos", "techos", "tech"])
     "Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",
     {
       delay: 4500,
-    }
-  );
+    },null,[flowagradecimiento]);
 
 
 
@@ -228,7 +230,11 @@ const flowPrincipal = addKeyword(["hola", "ole", "alo", 'consulta', 'tengo una c
         body: "Decks",
       },
     ],
-  });
+  },null,[ flowPiso,
+    flowTecho,
+    flowVerona,
+    flowDeks,
+    flowPuertaBlindada,   flowagradecimiento,]);
 
 
 // ----------------------------------------------------------------
@@ -239,23 +245,17 @@ const flowPrincipal = addKeyword(["hola", "ole", "alo", 'consulta', 'tengo una c
 
 
 
-const flowagradecimiento = addKeyword(["gracias", "grac"]).addAnswer(
-  "🙌 Gracias a ti, cualquier cosa nos podras encontrar en",
-  "www.milemor.com"
-);
 
 const main = async () => {
   const adapterDB = new MockAdapter();
   const adapterFlow = createFlow([
     flowPrincipal,
-    flowagradecimiento,
-    flowPiso,
-    flowTecho,
-    flowVerona,
-    flowPiso1,
-    flowPiso2,
-    flowDeks,
-    flowPuertaBlindada
+    // flowagradecimiento,
+    // flowPiso,
+    // flowTecho,
+    // flowVerona,
+    // flowDeks,
+    // flowPuertaBlindada
   ]);
   const adapterProvider = createProvider(BaileysProvider);
 
