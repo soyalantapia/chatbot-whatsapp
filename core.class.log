@@ -199,3 +199,176 @@
   body: 'Pero ahí mas o menos lo conozco',
   from: '584121091586'
 }
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05711392EBA41DE88',
+    participant: undefined
+  },
+  messageTimestamp: 1676558960,
+  pushName: 'Alan Tapia',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '#',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Alan Tapia',
+  body: '#',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB023AB68E9538A8A1F',
+    participant: undefined
+  },
+  messageTimestamp: 1676558966,
+  pushName: 'Alan Tapia',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Alan Tapia',
+  body: 'hola',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0620084449FF70073',
+    participant: undefined
+  },
+  messageTimestamp: 1676558967,
+  pushName: 'Alan Tapia',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: 'Pisos',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  verifiedBizName: 'Alan Tapia',
+  body: 'Pisos',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0CFA10BA5E5D79829',
+    participant: undefined
+  },
+  messageTimestamp: 1676558970,
+  pushName: 'Alan Tapia',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-2',
+      selectedDisplayText: 'Chapa simil teja',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  verifiedBizName: 'Alan Tapia',
+  body: 'Chapa simil teja',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A74DF94518802CC7',
+    participant: undefined
+  },
+  messageTimestamp: 1676558970,
+  pushName: 'Alan Tapia',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: 'Puerta Blindada',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  verifiedBizName: 'Alan Tapia',
+  body: 'Puerta Blindada',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C79FB4BFB2A19E82',
+    participant: undefined
+  },
+  messageTimestamp: 1676558971,
+  pushName: 'Alan Tapia',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'Chapas de resina sintetica',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  verifiedBizName: 'Alan Tapia',
+  body: 'Chapas de resina sintetica',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04EB71AF6E7B5B6EF',
+    participant: undefined
+  },
+  messageTimestamp: 1676558972,
+  pushName: 'Alan Tapia',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'Decks',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  verifiedBizName: 'Alan Tapia',
+  body: 'Decks',
+  from: '5491154596266'
+}

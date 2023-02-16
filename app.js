@@ -212,7 +212,7 @@ const flowTecho = addKeyword(["Chapas de resina sintetica"])
 
 
 //Primer mensaje que se envia
-const flowPrincipal = addKeyword(["#"])
+const flowPrincipal = addKeyword(["#", "# "])
   .addAnswer(
     "🙌 Hola bienvenido *Milemor*, nos alegra tenerte por aqui, estoy para ayudarte. elige una de las opciones",
     {
