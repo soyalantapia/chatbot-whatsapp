@@ -41,6 +41,7 @@ const flowDeks = addKeyword(["Decks", "Deck", "Deckss"])
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/5.-decks-Milemor.mp4'})
   //PDF
     .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/6.-decks-Milemor.pdf'})
+    .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/DECK-Catalogo-1-1.pdf'})
   .addAnswer(
     "¿Que cantidad y que modelos estabas buscando?.",
     {
@@ -138,24 +139,26 @@ const flowPiso = addKeyword(["piso", "pisos", "pis"]).addAnswer([
 
 
 
-const flowVerona = addKeyword(["Vereno", "Vereno - Duratej"])
+const flowVerona = addKeyword(["Chapa simil teja"])
   .addAnswer([
-    'Gracias por su consulta, las simil tejas de la linea Duratej vienen con 25 años de garantia, son super resistentes, térmicas y no se oxidan, el costo de la chapa es de 5750 pesos el metro lineal y vienen de 1,05 de ancho y 2,3 milimetros de espesor total, le envio fotos y videos del producto! por cualquier otra consulta me avisa, mi nombre es Roger y quedo a disposición, que tengas un excelente día', 
+    'Gracias por su consulta, las simil tejas de la linea Duratej vienen con 25 años de garantia, son super resistentes, térmicas y no se oxidan, el costo de la chapa es de 5750 pesos el metro lineal y vienen de 1,05 de ancho y 2,3 milimetros de espesor total, le envio fotos y videos del producto! por cualquier otra consulta me avisa, mi nombre es Roger y quedo a disposición, que tengas un excelente día', 
     "          ",
     'Para conocer otros tejados click aquí',
     'https://www.milemor.com/shop/category/techos-38',
     'consulte descuentos por pago contado', 
     "          ",
   ])
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/1.-techo.jpeg'})
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2.-techos.mp4'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2-CHAPA-SIMIL-TEJA.jpeg'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/3-CHAPA-SIMIL-TEJA.jpeg'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/4-CHAPA-SIMIL-TEJA.jpeg'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/5-CHAPA-SIMIL-TEJA.jpeg'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/6-CHAPA-SIMIL-TEJA.jpeg'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/7-CHAPA-SIMIL-TEJA.jpeg'})
   //MP4
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/3-techos.mp4'})
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/4.puerta.mp4'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/7-CHAPA-SIMIL-TEJA.mp4'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/8-CHAPA-SIMIL-TEJA.mp4'})
   //PDF
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/4.-techos-01-Duratej-Chapa-Transparente-FRP.pdf'})
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/5.-techos-01-Duratej-Chapa-UPVC.pdf'})
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/6.-trechos-01-Duratej-Teja-de-Resina-Romana-ASA.pdf'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-Duratej-Teja-de-Resina-Romana-ASA.pdf'})
 
 
   .addAnswer(
@@ -171,9 +174,9 @@ const flowVerona = addKeyword(["Vereno", "Vereno - Duratej"])
 
 
 
-const flowTecho = addKeyword(["techo", "Techos", "techos", "tech"])
+const flowTecho = addKeyword(["Chapas de resina sintetica"])
   .addAnswer([
-    "Gracias por su consulta, las chapas de la linea Duratej vienen con 25 años de garantia, son super resistentes, térmicas y no se oxidan, Te puedo ofrecer estos 3 modelos en las siguientes medidas y valores:",
+    "Gracias por su consulta, las chapas de la linea Duratej vienen con 25 años de garantia, son super resistentes, térmicas y no se oxidan, Te puedo ofrecer estos 3 modelos en las siguientes medidas y valores",
     "          ",
     "5.750 pesos el metro lineal (Lamina de 2,40 o 3,06 de largo x 1,05 de ancho, 2,3mm de espesor)",
     "          ",
@@ -181,21 +184,26 @@ const flowTecho = addKeyword(["techo", "Techos", "techos", "tech"])
     "          ",
     "2.750 pesos el metro lineal de la acanalada transparente (Lamina de 3,00 de largo x 0,93 de ancho, 1mm de espesor)",
     "          ",
-    "le envio fotos y videos del producto! por cualquier otra consulta me avisa, quedo a disposición y aprovecho a desearle un excelente dia",
+    "le envio fotos y videos del producto! por cualquier otra consulta me avisa, quedo a disposición y aprovecho a desearle un excelente dia",
     "          ",
     "https://www.milemor.com/shop?search=duratej&order",
   ])
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/3techos-milemor-whatsapp.jpeg'})
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/4.techos-milemor-whatsapp.jpeg'})
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2techos-milemor-whatsapp.jpeg'})
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/techos-milemor-whatsapp.jpeg'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2-CHAPA-SIMIL-TEJA.jpeg'})
+
   
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/WhatsApp-Video-2023-01-31-at-11.01.02-1.mp4'})
-  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-milemor-whatsapp-Duratej-Teja-de-Resina-Romana-ASA-1.pdf'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/8-CHAPA-SIMIL-TEJA.mp4'})
+
+
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-Duratej-Chapa-Transparente-FRP.pdf'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-Duratej-Chapa-UPVC.pdf'})
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-Duratej-Teja-de-Resina-Romana-ASA-1.pdf'})
+
   .addAnswer(
     "Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",
     {
       delay: 4500,
+      capture: true,
     },null,[flowagradecimiento]);
 
 
@@ -204,7 +212,7 @@ const flowTecho = addKeyword(["techo", "Techos", "techos", "tech"])
 
 
 //Primer mensaje que se envia
-const flowPrincipal = addKeyword(["hola", "ole", "alo", 'consulta', 'tengo una consulta', 'hol', 'hla'])
+const flowPrincipal = addKeyword(["#"])
   .addAnswer(
     "🙌 Hola bienvenido *Milemor*, nos alegra tenerte por aqui, estoy para ayudarte. elige una de las opciones",
     {
@@ -213,10 +221,10 @@ const flowPrincipal = addKeyword(["hola", "ole", "alo", 'consulta', 'tengo una c
           body: "Pisos",
         },
         {
-          body: "Techos",
+          body: "Chapas de resina sintetica",
         },
         {
-          body: "Vereno - Duratej",
+          body: "Chapa simil teja",
         }
       ],
     }

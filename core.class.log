@@ -2,14 +2,14 @@
   key: {
     remoteJid: '5491154596266@s.whatsapp.net',
     fromMe: false,
-    id: 'F1A39C9B800812C7566FC7059FC58DFD',
+    id: '963C2C85AFE78F07554775BAC316694F',
     participant: undefined
   },
-  messageTimestamp: 1676458932,
+  messageTimestamp: 1676542145,
   pushName: 'Alan Tapoa',
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Hol',
+      text: '#',
       previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
@@ -19,21 +19,45 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hol',
+  body: '#',
   from: '5491154596266'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491154596266@s.whatsapp.net',
     fromMe: false,
-    id: '8B618CEA1209D42CB32A139E30B4C616',
+    id: 'E332D70225A9CF088A2BA5C47C2CA139',
     participant: undefined
   },
-  messageTimestamp: 1676458945,
+  messageTimestamp: 1676542154,
+  pushName: 'Alan Tapoa',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'Chapas de resina sintetica',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Chapas de resina sintetica',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '1943AE11FEC1A599C2C8DD7FAF393344',
+    participant: undefined
+  },
+  messageTimestamp: 1676542195,
   pushName: 'Alan Tapoa',
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Hola cok9n3stqs',
+      text: 'Gracias',
       previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
@@ -43,6 +67,135 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola cok9n3stqs',
+  body: 'Gracias',
   from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '2C1CB2DB5A33F61980666420B933A5D7',
+    participant: undefined
+  },
+  messageTimestamp: 1676542204,
+  pushName: 'Alan Tapoa',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ykk',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ykk',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '69950CC62571115957A13B25E7BABA4E',
+    participant: undefined
+  },
+  messageTimestamp: 1676542207,
+  pushName: 'Alan Tapoa',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-2',
+      selectedDisplayText: 'Chapa simil teja',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Chapa simil teja',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584121091586@s.whatsapp.net',
+    fromMe: false,
+    id: '13F664D6B04A04F184F9762BB759886D',
+    participant: undefined
+  },
+  messageTimestamp: 1676555603,
+  pushName: 'Efraín Camero',
+  message: Message {
+    conversation: 'Fino está bien!',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Fino está bien!',
+  from: '584121091586'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584121091586@s.whatsapp.net',
+    fromMe: false,
+    id: '382CFF73D574448B9A946FA1303DB281',
+    participant: undefined
+  },
+  messageTimestamp: 1676555608,
+  pushName: 'Efraín Camero',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Si ya lo he usado',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si ya lo he usado',
+  from: '584121091586'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584121091586@s.whatsapp.net',
+    fromMe: false,
+    id: 'C2814C7A3A459509EDE3BE988DDF92E1',
+    participant: undefined
+  },
+  messageTimestamp: 1676555609,
+  pushName: 'Efraín Camero',
+  message: Message {
+    conversation: 'Hace tiempo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hace tiempo',
+  from: '584121091586'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584121091586@s.whatsapp.net',
+    fromMe: false,
+    id: '7EE44616ACCA7AD2CA8D52252B4033FA',
+    participant: undefined
+  },
+  messageTimestamp: 1676555616,
+  pushName: 'Efraín Camero',
+  message: Message {
+    conversation: 'Pero ahí mas o menos lo conozco',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Pero ahí mas o menos lo conozco',
+  from: '584121091586'
 }
