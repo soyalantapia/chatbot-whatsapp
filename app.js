@@ -250,7 +250,8 @@ const main = async () => {
   const adapterDB = new MockAdapter();
   const adapterFlow = createFlow([
     flowPrincipal,
-
+    flowPiso1,
+    flowPiso2,
     flowPiso,
     flowTecho,
     flowVerona,
