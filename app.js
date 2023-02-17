@@ -12,6 +12,7 @@ const MockAdapter = require("@bot-whatsapp/database/mock");
 
 
 
+
 const flowagradecimiento = addKeyword(["gracias", "grac"]).addAnswer(
   "Gracias a ti cualquier otra consulta o pregunta nos podrás encontrar en www.milemor.com",
 );
@@ -46,7 +47,7 @@ const flowDeks = addKeyword(["Decks", "Deck", "Deckss"])
     "¿Que cantidad y que modelos estabas buscando?.",
     {
       delay: 4500,
-    },null,[flowagradecimiento]);
+    });
 
 
 
@@ -93,8 +94,7 @@ const flowPuertaBlindada = addKeyword(["Puerta Blindada", "Puertas Blindada", "P
 
   //PDF
     .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2.puertas.pdf'})
-  .addAnswer("Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",{delay: 4500}
-  ,null,[flowagradecimiento]);
+  .addAnswer("Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",{delay: 4500});
 
 
 
@@ -132,7 +132,7 @@ const flowPiso = addKeyword(["piso", "pisos", "pis"]).addAnswer([
   "Para conocer tu requerimiento y brindarte una asesoría personalizada respondé la siguiente encuesta:",
   "1️⃣ Quiero cotizar mas de 100m2 (venta por lotes cerrados)",
   " 2️⃣ Quiero cotizar menos de 100m2 (venta por cajas",
-],null,[flowPiso1,flowPiso2]);
+]);
 
 
 // ----------------------------------------------------------------
@@ -165,7 +165,7 @@ const flowVerona = addKeyword(["Chapa simil teja"])
     "Te envié características, precios e imagines del producto, Tenes alguna otra duda, consulta o algo más en lo que te pueda ayudar? Avísame y con gusto te ayudo por aquí",
     {
       delay: 4500,
-    },null,[flowagradecimiento]);
+    });
 
 
 
@@ -189,12 +189,8 @@ const flowTecho = addKeyword(["Chapas de resina sintetica"])
     "https://www.milemor.com/shop?search=duratej&order",
   ])
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2-CHAPA-SIMIL-TEJA.jpeg'})
-
-  
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/WhatsApp-Video-2023-01-31-at-11.01.02-1.mp4'})
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/8-CHAPA-SIMIL-TEJA.mp4'})
-
-
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-Duratej-Chapa-Transparente-FRP.pdf'})
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-Duratej-Chapa-UPVC.pdf'})
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/01-Duratej-Teja-de-Resina-Romana-ASA-1.pdf'})
@@ -204,7 +200,7 @@ const flowTecho = addKeyword(["Chapas de resina sintetica"])
     {
       delay: 4500,
       capture: true,
-    },null,[flowagradecimiento]);
+    });
 
 
 
@@ -238,11 +234,7 @@ const flowPrincipal = addKeyword(["#", "# "])
         body: "Decks",
       },
     ],
-  },null,[ flowPiso,
-    flowTecho,
-    flowVerona,
-    flowDeks,
-    flowPuertaBlindada,   flowagradecimiento,]);
+  });
 
 
 // ----------------------------------------------------------------
@@ -258,12 +250,12 @@ const main = async () => {
   const adapterDB = new MockAdapter();
   const adapterFlow = createFlow([
     flowPrincipal,
-    // flowagradecimiento,
-    // flowPiso,
-    // flowTecho,
-    // flowVerona,
-    // flowDeks,
-    // flowPuertaBlindada
+
+    flowPiso,
+    flowTecho,
+    flowVerona,
+    flowDeks,
+    flowPuertaBlindada
   ]);
   const adapterProvider = createProvider(BaileysProvider);
 
