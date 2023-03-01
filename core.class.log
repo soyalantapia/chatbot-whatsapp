@@ -1,0 +1,290 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B4F0317298D808B6',
+    participant: undefined
+  },
+  messageTimestamp: 1676659555,
+  pushName: 'Alan Tapia',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '# Mas informacion: PISOS',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Alan Tapia',
+  body: '# Mas informacion: PISOS',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584121091586@s.whatsapp.net',
+    fromMe: false,
+    id: 'F43F547F6CD00B5FAD3352CBFE95DDD5',
+    participant: undefined
+  },
+  messageTimestamp: 1676661711,
+  pushName: 'Efraín Camero',
+  message: Message {
+    conversation: 'Voy!',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Voy!',
+  from: '584121091586'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '584121091586@s.whatsapp.net',
+    fromMe: false,
+    id: 'F9522F6DF3897262C0C7C40AC380657F',
+    participant: undefined
+  },
+  messageTimestamp: 1676661741,
+  pushName: 'Efraín Camero',
+  message: Message {
+    conversation: 'Listo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Listo',
+  from: '584121091586'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '7833BB93B624DD05F0852C7128F6B768',
+    participant: undefined
+  },
+  messageTimestamp: 1676662517,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Ya te lo miro gorda',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ya te lo miro gorda',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '2E30450A4E26663021CDEA01876D1D1A',
+    participant: undefined
+  },
+  messageTimestamp: 1676662519,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Bancame',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Bancame',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '6D7EF5CB7D38431455122F4C911BC19B',
+    participant: undefined
+  },
+  messageTimestamp: 1676662524,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Que no puedo ahroa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Que no puedo ahroa',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '001CFA43F8206DB42A9D433C6F904D2D',
+    participant: undefined
+  },
+  messageTimestamp: 1676662618,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Gorda',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Gorda',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: 'DB47D27DDF032520FAD8FE029DAD8CD9',
+    participant: undefined
+  },
+  messageTimestamp: 1676662629,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Se presentan en estadísticas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Se presentan en estadísticas',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '8EC0D723F1680DF00476FDA1021F7BD2',
+    participant: undefined
+  },
+  messageTimestamp: 1676662639,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Así escrito es como que no da para entender',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Así escrito es como que no da para entender',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '95B48193C75471472366265A6D712BA0',
+    participant: undefined
+  },
+  messageTimestamp: 1676662646,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Yo le pondría capturas sino',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Yo le pondría capturas sino',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '4396CFBC33083134DD793E64780DB0F3',
+    participant: undefined
+  },
+  messageTimestamp: 1676662657,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Porque puede ser chamuyo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Porque puede ser chamuyo',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '38A1B581F7C109C692DC84B0451BA539',
+    participant: undefined
+  },
+  messageTimestamp: 1676668126,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Y creo que sí',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y creo que sí',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '57ECDF4523C6EF416780713B7052BED4',
+    participant: undefined
+  },
+  messageTimestamp: 1676668149,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Es que hay mucho textp por eso',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Es que hay mucho textp por eso',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: '4D29737344E0980BA9B0799038C775DD',
+    participant: undefined
+  },
+  messageTimestamp: 1676668157,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Pero está bien',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Pero está bien',
+  from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491126324706@s.whatsapp.net',
+    fromMe: false,
+    id: 'ADBCF1CBF5549A3851E406DEE0BE2387',
+    participant: undefined
+  },
+  messageTimestamp: 1676668169,
+  pushName: 'Nayla Tapia',
+  message: Message {
+    conversation: 'Ponele las capturas sino y déjale el texto',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ponele las capturas sino y déjale el texto',
+  from: '5491126324706'
+}
