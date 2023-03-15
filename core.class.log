@@ -2,14 +2,14 @@
   key: {
     remoteJid: '5491154596266@s.whatsapp.net',
     fromMe: false,
-    id: '9614BA4C2A5588B42E0DFCEA8948132E',
+    id: '0BBAEF97A9689971BD64886145C63101',
     participant: undefined
   },
-  messageTimestamp: 1677693562,
+  messageTimestamp: 1678889205,
   pushName: 'Alan Tapia',
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: '# hhh',
+      text: '# y',
       previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
@@ -19,286 +19,17 @@
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Alan Tapia',
-  body: '# hhh',
+  body: '# y',
   from: '5491154596266'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
-    fromMe: false,
-    id: '35B0A3198A46BE49721849A2CBB474A9',
-    participant: undefined
-  },
-  messageTimestamp: 1677693579,
-  pushName: 'Nayla Tapia',
-  message: Message {
-    conversation: '#',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '#',
-  from: '5491126324706'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
-    fromMe: false,
-    id: '25789E42438F0CADBCCC3808CE96D0FB',
-    participant: undefined
-  },
-  messageTimestamp: 1677693595,
-  pushName: 'Nayla Tapia',
-  message: Message {
-    conversation: 'Good',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Good',
-  from: '5491126324706'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121568513@s.whatsapp.net',
-    fromMe: false,
-    id: 'F7956B302F3C171B2D8E431C1FFD11C0',
-    participant: undefined
-  },
-  messageTimestamp: 1677693601,
-  pushName: 'Stella  Repasadores GRIM',
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Ma mandale a catu esto\n\n" # " a su whatsapp',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ma mandale a catu esto\n\n" # " a su whatsapp',
-  from: '5491121568513'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491154596266@s.whatsapp.net',
     fromMe: false,
-    id: '9E0E232CA2FAA4A7AEAC5B28514B5174',
+    id: 'D9DE2795F29CD8DEE947EC65C021C86D',
     participant: undefined
   },
-  messageTimestamp: 1677693623,
-  pushName: 'Alan Tapia',
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    buttonsResponseMessage: ButtonsResponseMessage {
-      selectedButtonId: 'id-btn-1',
-      selectedDisplayText: 'Chapas de resina sintetica',
-      contextInfo: [ContextInfo],
-      type: 1
-    }
-  },
-  body: 'Chapas de resina sintetica',
-  from: '5491154596266'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121568513@s.whatsapp.net',
-    fromMe: false,
-    id: 'EFBEF900042E4C0F9ADB7822AA644546',
-    participant: undefined
-  },
-  messageTimestamp: 1677693630,
-  pushName: 'Stella  Repasadores GRIM',
-  message: Message {
-    conversation: '#',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '#',
-  from: '5491121568513'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121568513@s.whatsapp.net',
-    fromMe: false,
-    id: '7C9D83C5EC443D39A7679C8BEB1944BD',
-    participant: undefined
-  },
-  messageTimestamp: 1677693639,
-  pushName: 'Stella  Repasadores GRIM',
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    buttonsResponseMessage: ButtonsResponseMessage {
-      selectedButtonId: 'id-btn-1',
-      selectedDisplayText: 'Chapas de resina sintetica',
-      contextInfo: [ContextInfo],
-      type: 1
-    }
-  },
-  body: 'Chapas de resina sintetica',
-  from: '5491121568513'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121568513@s.whatsapp.net',
-    fromMe: false,
-    id: '2FED2E00119EACF6C04BC44BE27672A3',
-    participant: undefined
-  },
-  messageTimestamp: 1677693647,
-  pushName: 'Stella  Repasadores GRIM',
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    buttonsResponseMessage: ButtonsResponseMessage {
-      selectedButtonId: 'id-btn-0',
-      selectedDisplayText: 'Puerta Blindada',
-      contextInfo: [ContextInfo],
-      type: 1
-    }
-  },
-  body: 'Puerta Blindada',
-  from: '5491121568513'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121568513@s.whatsapp.net',
-    fromMe: false,
-    id: 'E44E8AAAAE86886A2315A7D808CE4583',
-    participant: undefined
-  },
-  messageTimestamp: 1677693653,
-  pushName: 'Stella  Repasadores GRIM',
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    buttonsResponseMessage: ButtonsResponseMessage {
-      selectedButtonId: 'id-btn-1',
-      selectedDisplayText: 'Decks',
-      contextInfo: [ContextInfo],
-      type: 1
-    }
-  },
-  body: 'Decks',
-  from: '5491121568513'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491154596266@s.whatsapp.net',
-    fromMe: false,
-    id: '4EBED22104DDABAC215495774E3CA49B',
-    participant: undefined
-  },
-  messageTimestamp: 1677693660,
-  pushName: 'Alan Tapia',
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    buttonsResponseMessage: ButtonsResponseMessage {
-      selectedButtonId: 'id-btn-2',
-      selectedDisplayText: 'Chapa simil teja',
-      contextInfo: [ContextInfo],
-      type: 1
-    }
-  },
-  body: 'Chapa simil teja',
-  from: '5491154596266'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
-    fromMe: false,
-    id: 'B2ECEFA64A2825F81360E7B962A5C451',
-    participant: undefined
-  },
-  messageTimestamp: 1677693661,
-  pushName: 'Nayla Tapia',
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    buttonsResponseMessage: ButtonsResponseMessage {
-      selectedButtonId: 'id-btn-1',
-      selectedDisplayText: 'Chapas de resina sintetica',
-      contextInfo: [ContextInfo],
-      type: 1
-    }
-  },
-  body: 'Chapas de resina sintetica',
-  from: '5491126324706'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491154596266@s.whatsapp.net',
-    fromMe: false,
-    id: '467EA0E45A0686128703342E139B7ADD',
-    participant: undefined
-  },
-  messageTimestamp: 1677693773,
-  pushName: 'Alan Tapia',
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    buttonsResponseMessage: ButtonsResponseMessage {
-      selectedButtonId: 'id-btn-1',
-      selectedDisplayText: 'Decks',
-      contextInfo: [ContextInfo],
-      type: 1
-    }
-  },
-  body: 'Decks',
-  from: '5491154596266'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128837631@s.whatsapp.net',
-    fromMe: false,
-    id: '1C558B0E153F9D10FB42FD861C1EE24E',
-    participant: undefined
-  },
-  messageTimestamp: 1677694089,
-  pushName: 'flo',
-  message: Message {
-    conversation: '#',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '#',
-  from: '5491128837631'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491154596266@s.whatsapp.net',
-    fromMe: false,
-    id: 'D99A8BE2163AAB0306CA66C8632B7CF5',
-    participant: undefined
-  },
-  messageTimestamp: 1677694492,
+  messageTimestamp: 1678889206,
   pushName: 'Alan Tapia',
   message: Message {
     messageContextInfo: MessageContextInfo {
@@ -313,29 +44,5 @@
     }
   },
   body: 'Pisos',
-  from: '5491154596266'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491154596266@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0E540F407DB75C84B',
-    participant: undefined
-  },
-  messageTimestamp: 1677696717,
-  pushName: 'Alan Tapia',
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '#',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  verifiedBizName: 'Alan Tapia',
-  body: '#',
   from: '5491154596266'
 }

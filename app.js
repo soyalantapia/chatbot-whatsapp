@@ -114,32 +114,33 @@ const flowPiso1 = addKeyword(["1️⃣", "1", "primero", "el primero","numero un
   //PDF
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/3.piso_.pdf'})
 
-  
-const flowPiso2 = addKeyword(["2️⃣", "2", "segundo", "el segundo","numero dos"]).addAnswer([
-"Perfecto para esos metros te puedo ofrecer las siguientes lineas de pisos con estos tonos, el valor que te paso de cada una por m2",
-"          ",
-"-LÍNEA SMART 3,5MM SPC (7.350 PESOS EL METRO CUADRADO)",
-"          ",
-"-LÍNEA ETERNITY 4MM SPC (7.350 PESOS EL METRO CUADRADO)",
-"          ",
-"-LINEA TIMBERLUX 4MM TABLA EXTRA ANCHA (8.350 PESOS EL METRO CUADRADO)",
-"          ",
-"-LINEA CLIMATE 4MM (8.700 PESOS EL METRO CUADRADO)",
-])
-.addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/1.piso_.jpeg'})
-//MP4
-.addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2.piso_.mp4'})
-//PDF
-.addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/3.piso_.pdf'})
 
 
-const flowPiso = addKeyword(["Pisos"], {
-  sensitive: true,
-}).addAnswer([
-  "Para conocer tu requerimiento y brindarte una asesoría personalizada respondé la siguiente encuesta:",
-  "1️⃣ Quiero cotizar mas de 100m2 (venta por lotes cerrados)",
-  " 2️⃣ Quiero cotizar menos de 100m2 (venta por cajas",
-]);
+    
+  const flowPiso2 = addKeyword(["2️⃣", "2", "segundo", "el segundo","numero dos"]).addAnswer([
+  "Perfecto para esos metros te puedo ofrecer las siguientes lineas de pisos con estos tonos, el valor que te paso de cada una por m2",
+  "          ",
+  "-LÍNEA SMART 3,5MM SPC (7.350 PESOS EL METRO CUADRADO)",
+  "          ",
+  "-LÍNEA ETERNITY 4MM SPC (7.350 PESOS EL METRO CUADRADO)",
+  "          ",
+  "-LINEA TIMBERLUX 4MM TABLA EXTRA ANCHA (8.350 PESOS EL METRO CUADRADO)",
+  "          ",
+  "-LINEA CLIMATE 4MM (8.700 PESOS EL METRO CUADRADO)",
+  ])
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/1.piso_.jpeg'})
+  //MP4
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/2.piso_.mp4'})
+  //PDF
+  .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/3.piso_.pdf'})
+
+
+  const flowPiso = addKeyword(["Pisos"], {
+    sensitive: true,
+  }).addAnswer( ["Para conocer tu requerimiento y brindarte una asesoría personalizada respondé la siguiente encuesta:"," 1️⃣ Quiero cotizar mas de 100m2 (venta por lotes cerrados)","  2️⃣ Quiero cotizar menos de 100m2 (venta por cajas"]
+    ,{
+      delay: 100,
+    },null ,[flowPiso1, flowPiso2] );
 
 
 // ----------------------------------------------------------------
@@ -253,16 +254,10 @@ const flowPrincipal = addKeyword(["#", "# "])
 
 
 
-
-
-
-
 const main = async () => {
   const adapterDB = new MockAdapter();
   const adapterFlow = createFlow([
     flowPrincipal,
-    flowPiso1,
-    flowPiso2,
     flowPiso,
     flowTecho,
     flowVerona,
