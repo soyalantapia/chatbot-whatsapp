@@ -2,14 +2,15 @@
   key: {
     remoteJid: '5491154596266@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0B4F0317298D808B6',
+    id: '9614BA4C2A5588B42E0DFCEA8948132E',
     participant: undefined
   },
-  messageTimestamp: 1676659555,
+  messageTimestamp: 1677693562,
   pushName: 'Alan Tapia',
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: '# Mas informacion: PISOS',
+      text: '# hhh',
+      previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -19,272 +20,322 @@
     }
   },
   verifiedBizName: 'Alan Tapia',
-  body: '# Mas informacion: PISOS',
+  body: '# hhh',
   from: '5491154596266'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '584121091586@s.whatsapp.net',
-    fromMe: false,
-    id: 'F43F547F6CD00B5FAD3352CBFE95DDD5',
-    participant: undefined
-  },
-  messageTimestamp: 1676661711,
-  pushName: 'Efraín Camero',
-  message: Message {
-    conversation: 'Voy!',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Voy!',
-  from: '584121091586'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '584121091586@s.whatsapp.net',
-    fromMe: false,
-    id: 'F9522F6DF3897262C0C7C40AC380657F',
-    participant: undefined
-  },
-  messageTimestamp: 1676661741,
-  pushName: 'Efraín Camero',
-  message: Message {
-    conversation: 'Listo',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Listo',
-  from: '584121091586'
-}
-[handleMsg]:  {
-  key: {
     remoteJid: '5491126324706@s.whatsapp.net',
     fromMe: false,
-    id: '7833BB93B624DD05F0852C7128F6B768',
+    id: '35B0A3198A46BE49721849A2CBB474A9',
     participant: undefined
   },
-  messageTimestamp: 1676662517,
+  messageTimestamp: 1677693579,
   pushName: 'Nayla Tapia',
   message: Message {
-    conversation: 'Ya te lo miro gorda',
+    conversation: '#',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Ya te lo miro gorda',
+  body: '#',
   from: '5491126324706'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491126324706@s.whatsapp.net',
     fromMe: false,
-    id: '2E30450A4E26663021CDEA01876D1D1A',
+    id: '25789E42438F0CADBCCC3808CE96D0FB',
     participant: undefined
   },
-  messageTimestamp: 1676662519,
+  messageTimestamp: 1677693595,
   pushName: 'Nayla Tapia',
   message: Message {
-    conversation: 'Bancame',
+    conversation: 'Good',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Bancame',
+  body: 'Good',
   from: '5491126324706'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121568513@s.whatsapp.net',
+    fromMe: false,
+    id: 'F7956B302F3C171B2D8E431C1FFD11C0',
+    participant: undefined
+  },
+  messageTimestamp: 1677693601,
+  pushName: 'Stella  Repasadores GRIM',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ma mandale a catu esto\n\n" # " a su whatsapp',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ma mandale a catu esto\n\n" # " a su whatsapp',
+  from: '5491121568513'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '9E0E232CA2FAA4A7AEAC5B28514B5174',
+    participant: undefined
+  },
+  messageTimestamp: 1677693623,
+  pushName: 'Alan Tapia',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'Chapas de resina sintetica',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Chapas de resina sintetica',
+  from: '5491154596266'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121568513@s.whatsapp.net',
+    fromMe: false,
+    id: 'EFBEF900042E4C0F9ADB7822AA644546',
+    participant: undefined
+  },
+  messageTimestamp: 1677693630,
+  pushName: 'Stella  Repasadores GRIM',
+  message: Message {
+    conversation: '#',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '#',
+  from: '5491121568513'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121568513@s.whatsapp.net',
+    fromMe: false,
+    id: '7C9D83C5EC443D39A7679C8BEB1944BD',
+    participant: undefined
+  },
+  messageTimestamp: 1677693639,
+  pushName: 'Stella  Repasadores GRIM',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'Chapas de resina sintetica',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Chapas de resina sintetica',
+  from: '5491121568513'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121568513@s.whatsapp.net',
+    fromMe: false,
+    id: '2FED2E00119EACF6C04BC44BE27672A3',
+    participant: undefined
+  },
+  messageTimestamp: 1677693647,
+  pushName: 'Stella  Repasadores GRIM',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: 'Puerta Blindada',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Puerta Blindada',
+  from: '5491121568513'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491121568513@s.whatsapp.net',
+    fromMe: false,
+    id: 'E44E8AAAAE86886A2315A7D808CE4583',
+    participant: undefined
+  },
+  messageTimestamp: 1677693653,
+  pushName: 'Stella  Repasadores GRIM',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'Decks',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Decks',
+  from: '5491121568513'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491154596266@s.whatsapp.net',
+    fromMe: false,
+    id: '4EBED22104DDABAC215495774E3CA49B',
+    participant: undefined
+  },
+  messageTimestamp: 1677693660,
+  pushName: 'Alan Tapia',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-2',
+      selectedDisplayText: 'Chapa simil teja',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Chapa simil teja',
+  from: '5491154596266'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491126324706@s.whatsapp.net',
     fromMe: false,
-    id: '6D7EF5CB7D38431455122F4C911BC19B',
+    id: 'B2ECEFA64A2825F81360E7B962A5C451',
     participant: undefined
   },
-  messageTimestamp: 1676662524,
+  messageTimestamp: 1677693661,
   pushName: 'Nayla Tapia',
   message: Message {
-    conversation: 'Que no puedo ahroa',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'Chapas de resina sintetica',
+      contextInfo: [ContextInfo],
+      type: 1
     }
   },
-  body: 'Que no puedo ahroa',
+  body: 'Chapas de resina sintetica',
   from: '5491126324706'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
+    remoteJid: '5491154596266@s.whatsapp.net',
     fromMe: false,
-    id: '001CFA43F8206DB42A9D433C6F904D2D',
+    id: '467EA0E45A0686128703342E139B7ADD',
     participant: undefined
   },
-  messageTimestamp: 1676662618,
-  pushName: 'Nayla Tapia',
+  messageTimestamp: 1677693773,
+  pushName: 'Alan Tapia',
   message: Message {
-    conversation: 'Gorda',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: 'Decks',
+      contextInfo: [ContextInfo],
+      type: 1
     }
   },
-  body: 'Gorda',
-  from: '5491126324706'
+  body: 'Decks',
+  from: '5491154596266'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
+    remoteJid: '5491128837631@s.whatsapp.net',
     fromMe: false,
-    id: 'DB47D27DDF032520FAD8FE029DAD8CD9',
+    id: '1C558B0E153F9D10FB42FD861C1EE24E',
     participant: undefined
   },
-  messageTimestamp: 1676662629,
-  pushName: 'Nayla Tapia',
+  messageTimestamp: 1677694089,
+  pushName: 'flo',
   message: Message {
-    conversation: 'Se presentan en estadísticas',
+    conversation: '#',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Se presentan en estadísticas',
-  from: '5491126324706'
+  body: '#',
+  from: '5491128837631'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
+    remoteJid: '5491154596266@s.whatsapp.net',
     fromMe: false,
-    id: '8EC0D723F1680DF00476FDA1021F7BD2',
+    id: 'D99A8BE2163AAB0306CA66C8632B7CF5',
     participant: undefined
   },
-  messageTimestamp: 1676662639,
-  pushName: 'Nayla Tapia',
+  messageTimestamp: 1677694492,
+  pushName: 'Alan Tapia',
   message: Message {
-    conversation: 'Así escrito es como que no da para entender',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: 'Pisos',
+      contextInfo: [ContextInfo],
+      type: 1
     }
   },
-  body: 'Así escrito es como que no da para entender',
-  from: '5491126324706'
+  body: 'Pisos',
+  from: '5491154596266'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
+    remoteJid: '5491154596266@s.whatsapp.net',
     fromMe: false,
-    id: '95B48193C75471472366265A6D712BA0',
+    id: '3EB0E540F407DB75C84B',
     participant: undefined
   },
-  messageTimestamp: 1676662646,
-  pushName: 'Nayla Tapia',
+  messageTimestamp: 1677696717,
+  pushName: 'Alan Tapia',
   message: Message {
-    conversation: 'Yo le pondría capturas sino',
+    extendedTextMessage: ExtendedTextMessage {
+      text: '#',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Yo le pondría capturas sino',
-  from: '5491126324706'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
-    fromMe: false,
-    id: '4396CFBC33083134DD793E64780DB0F3',
-    participant: undefined
-  },
-  messageTimestamp: 1676662657,
-  pushName: 'Nayla Tapia',
-  message: Message {
-    conversation: 'Porque puede ser chamuyo',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Porque puede ser chamuyo',
-  from: '5491126324706'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
-    fromMe: false,
-    id: '38A1B581F7C109C692DC84B0451BA539',
-    participant: undefined
-  },
-  messageTimestamp: 1676668126,
-  pushName: 'Nayla Tapia',
-  message: Message {
-    conversation: 'Y creo que sí',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Y creo que sí',
-  from: '5491126324706'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
-    fromMe: false,
-    id: '57ECDF4523C6EF416780713B7052BED4',
-    participant: undefined
-  },
-  messageTimestamp: 1676668149,
-  pushName: 'Nayla Tapia',
-  message: Message {
-    conversation: 'Es que hay mucho textp por eso',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Es que hay mucho textp por eso',
-  from: '5491126324706'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
-    fromMe: false,
-    id: '4D29737344E0980BA9B0799038C775DD',
-    participant: undefined
-  },
-  messageTimestamp: 1676668157,
-  pushName: 'Nayla Tapia',
-  message: Message {
-    conversation: 'Pero está bien',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Pero está bien',
-  from: '5491126324706'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491126324706@s.whatsapp.net',
-    fromMe: false,
-    id: 'ADBCF1CBF5549A3851E406DEE0BE2387',
-    participant: undefined
-  },
-  messageTimestamp: 1676668169,
-  pushName: 'Nayla Tapia',
-  message: Message {
-    conversation: 'Ponele las capturas sino y déjale el texto',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ponele las capturas sino y déjale el texto',
-  from: '5491126324706'
+  verifiedBizName: 'Alan Tapia',
+  body: '#',
+  from: '5491154596266'
 }
