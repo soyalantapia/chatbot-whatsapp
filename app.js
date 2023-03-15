@@ -22,7 +22,9 @@ const flowagradecimiento = addKeyword(["gracias", "grac"]).addAnswer(
 
 
 
-const flowDeks = addKeyword(["Decks", "Deck", "Deckss"])
+const flowDeks = addKeyword(["Decks"], {
+  sensitive: true,
+})
   .addAnswer([
     "Gracias por tu consulta",
     "Los deck que comercializamos son de WPC lo cual los hace un material libre de mantenimiento, el mismo se vende por metro cuadrado de kit, quiere decir que el metro cuadrado te incluye las tablas de deck, rieles de fijación, clips y tornillos, los valores del m2 serian los siguientes",
@@ -55,7 +57,9 @@ const flowDeks = addKeyword(["Decks", "Deck", "Deckss"])
 
 
 
-const flowPuertaBlindada = addKeyword(["Puerta Blindada", "Puertas Blindada", "Puertas Blindadas,Puerta"])
+const flowPuertaBlindada = addKeyword(["Puerta Blindada"], {
+  sensitive: true,
+})
   .addAnswer([
     "PRECIO Y FORMA DE PAGO",
     "Puerta 50mm (3 MODELO)",
@@ -142,7 +146,9 @@ const flowPiso = addKeyword(["Pisos"], {
 
 
 
-const flowVerona = addKeyword(["Chapa simil teja"])
+const flowVerona = addKeyword(["Chapa simil teja"], {
+  sensitive: true,
+})
   .addAnswer([
     'Gracias por su consulta, las simil tejas de la linea Duratej vienen con 25 años de garantia, son super resistentes, térmicas y no se oxidan, el costo de la chapa es de 5750 pesos el metro lineal y vienen de 1,05 de ancho y 2,3 milimetros de espesor total, le envio fotos y videos del producto! por cualquier otra consulta me avisa, mi nombre es Roger y quedo a disposición, que tengas un excelente día', 
     "          ",
@@ -177,7 +183,9 @@ const flowVerona = addKeyword(["Chapa simil teja"])
 
 
 
-const flowTecho = addKeyword(["Chapas de resina sintetica"])
+const flowTecho = addKeyword(["Chapas de resina sintetica"], {
+  sensitive: true,
+})
   .addAnswer([
     "Gracias por su consulta, las chapas de la linea Duratej vienen con 25 años de garantia, son super resistentes, térmicas y no se oxidan, Te puedo ofrecer estos 3 modelos en las siguientes medidas y valores",
     "          ",
