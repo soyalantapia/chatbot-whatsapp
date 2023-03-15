@@ -118,15 +118,11 @@ const flowPiso1 = addKeyword(["1️⃣", "1", "primero", "el primero","numero un
 
     
   const flowPiso2 = addKeyword(["2️⃣", "2", "segundo", "el segundo","numero dos"]).addAnswer([
-  "Perfecto para esos metros te puedo ofrecer las siguientes lineas de pisos con estos tonos, el valor que te paso de cada una por m2",
-  "          ",
-  "-LÍNEA SMART 3,5MM SPC (7.350 PESOS EL METRO CUADRADO)",
-  "          ",
-  "-LÍNEA ETERNITY 4MM SPC (7.350 PESOS EL METRO CUADRADO)",
-  "          ",
-  "-LINEA TIMBERLUX 4MM TABLA EXTRA ANCHA (8.350 PESOS EL METRO CUADRADO)",
-  "          ",
-  "-LINEA CLIMATE 4MM (8.700 PESOS EL METRO CUADRADO)",
+  "Para esos metros te puedo ofrecer las siguientes lineas de pisos con estos tonos, el valor que te paso de cada una por m2",
+  "-LÍNEA SMART 3,5MM SPC (7.800 PESOS EL METRO CUADRADO)",
+  "-LÍNEA ETERNITY 4MM SPC (7.800 PESOS EL METRO CUADRADO)",
+  "-LINEA TIMBERLUX 4MM TABLA EXTRA ANCHA (8.900 PESOS EL METRO CUADRADO)",  
+  "-LINEA CLIMATE 4MM (9.300 PESOS EL METRO CUADRADO)",
   ])
   .addAnswer('  ',{ media:'https://milemorlowcost.com/wp-content/uploads/2023/02/1.piso_.jpeg'})
   //MP4
